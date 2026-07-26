@@ -1,22 +1,48 @@
 {
   "name": "adwi-clock",
   "version": "1.0.0",
+  "description": "A tiny, weather-aware timer made with love for Adwi's study sessions.",
+  "license": "MIT",
+  "author": "Ananyo Shourjo",
   "main": "index.ts",
   "scripts": {
     "start": "expo start",
     "android": "expo start --android",
     "ios": "expo start --ios",
-    "web": "expo start --web"
+    "web": "expo start --web",
+    "typecheck": "tsc --noEmit",
+    "test": "tsx --test tests/**/*.test.ts",
+    "doctor": "expo-doctor",
+    "check": "npm run typecheck && npm test && npm run doctor"
   },
   "dependencies": {
-    "expo": "~54.0.33",
-    "expo-status-bar": "~3.0.9",
-    "react": "19.1.0",
-    "react-native": "0.81.5"
+    "@expo-google-fonts/ibm-plex-mono": "^0.4.1",
+    "@expo/metro-runtime": "~55.0.12",
+    "@tamagui/button": "^2.5.1",
+    "@tamagui/config": "^2.5.1",
+    "@tamagui/stacks": "^2.5.1",
+    "@tamagui/web": "^2.5.1",
+    "expo": "~55.0.28",
+    "expo-asset": "~55.0.18",
+    "expo-audio": "~55.0.16",
+    "expo-font": "~55.0.8",
+    "expo-location": "~55.1.12",
+    "expo-status-bar": "~55.0.6",
+    "react": "19.2.0",
+    "react-dom": "19.2.0",
+    "react-native": "0.83.6",
+    "react-native-svg": "15.15.3",
+    "react-native-web": "^0.21.2"
   },
   "devDependencies": {
-    "@types/react": "~19.1.0",
+    "@types/react": "~19.2.10",
+    "expo-doctor": "^1.20.1",
+    "tsx": "^4.20.6",
     "typescript": "~5.9.2"
+  },
+  "overrides": {
+    "react": "19.2.0",
+    "react-native": "0.83.6"
   },
   "private": true
 }

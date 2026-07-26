@@ -1,0 +1,25 @@
+name: Gentle idea
+description: Suggest something that could make studying calmer, cuter, or kinder.
+title: "[Idea] "
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: idea
+    attributes:
+      label: What would you like to add or change?
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: How would it help?
+      description: Tell us what this would feel like during a study session.
+    validations:
+      required: true
+  - type: checkboxes
+    id: fit
+    attributes:
+      label: A quick fit check
+      options:
+        - label: This keeps the timer easy to understand.
+        - label: This does not require tracking, advertising, or an account.

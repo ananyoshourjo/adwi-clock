@@ -1,0 +1,20 @@
+# Local build outputs
+builds/
+
+# Expo/dev-server logs
+.expo/
+.expo-*.log
+.expo-*.err.log
+
+# Temporary visual QA outputs
+.tmp-*.png
+expo-go-qr.png
+flirt.txt
+assets/fonts/
+
+# Web export output
+dist/
+web-build/
+
+# Dependencies are installed by EAS
+node_modules/

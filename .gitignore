@@ -39,3 +39,20 @@ yarn-error.*
 # generated native folders
 /ios
 /android
+
+# local builds and release artifacts
+builds/
+*.apk
+*.aab
+
+# local Expo/dev-server output
+.expo-*.log
+.expo-*.err.log
+expo-go-qr.png
+
+# temporary visual QA files
+.tmp-*
+
+# private creative scratchpads and unused local fonts
+flirt.txt
+assets/fonts/
