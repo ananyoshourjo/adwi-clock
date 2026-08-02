@@ -18,8 +18,8 @@
   "dependencies": {
     "@expo-google-fonts/ibm-plex-mono": "^0.4.1",
     "@expo/metro-runtime": "~55.0.12",
-    "@tamagui/button": "^2.5.1",
-    "@tamagui/config": "^2.5.1",
+    "@tamagui/button": "^2.6.0",
+    "@tamagui/config": "^2.6.0",
     "@tamagui/stacks": "^2.5.1",
     "@tamagui/web": "^2.5.1",
     "expo": "~55.0.28",
